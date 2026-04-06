@@ -3,7 +3,7 @@
 Este projeto é uma aplicação web simples de um cardápio de café online, desenvolvida com HTML, CSS e JavaScript.
 O objetivo do projeto é praticar conceitos básicos de desenvolvimento Front-end, manipulação do DOM e organização de arquivos.
 
-<img src="imagens/projeto_cafe_online_foto.png" alt="imagem do projeto">
+<img src="projeto_cafe_online_foto.png" alt="imagem do projeto">
 
 ## Funcionalidades
 
