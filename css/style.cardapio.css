@@ -1,0 +1,202 @@
+/*geral*/
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #ffdab9a2;
+}
+
+/*container_header*/
+#container_header header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    background-color: #4e2609;
+    color: #fff;
+    font-weight: bolder;
+
+}
+
+#container_header__links ul li {
+    display: inline;
+    margin: 30px;
+
+
+}
+
+#container_header__links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    transition: all 0.25s ease;
+}
+
+#container_header__links ul li a:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+
+/*section-cardapio*/
+#section_cardapio_itens {
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+
+#section_cardapio_itens h5 {
+    font-size: 20px;
+    color: #4e2609;
+    font-weight: bolder;
+}
+
+#section_cardapio_itens .btn_categoria_cafe,
+#section_cardapio_itens .btn_categoria_salgados,
+#section_cardapio_itens .btn_categoria_doces {
+    width: 100px;
+    padding: 10px;
+    margin-top: 20px;
+    color: #4e2609;
+    font-weight: bolder;
+    border: 1px solid #8B4513;
+    border-radius: 5px;
+
+
+}
+
+
+#section_cardapio_itens button:hover {
+    color: #fff;
+    background-color: #4e2609;
+    cursor: pointer;
+}
+
+#container_cardapio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+}
+
+#container_cardapio_itens_pedido h5 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+#container_cardapio_itens_pedido p {
+    margin-top: 20px;
+}
+
+
+#container_cardapio_itens_pedido hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#container_cardapio_itens_pedido {
+    background-color: #4e2609;
+    padding: 50px;
+    color: #fff;
+    border-radius: 10px;
+    width: 200px;
+}
+
+#btn_enviar_pedido {
+    background-color: #228B22;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bolder;
+}
+
+.box-cardapio {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 20px;
+    width: 400px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+
+.box-cardapio img {
+    border-radius: 20px;
+}
+
+.box-cardapio_text {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 16px;
+    color: #4e2609;
+    font-weight: bolder;
+}
+
+.box-cardapio_text p {
+    margin-right: 30px;
+
+}
+
+.box-cardapio_text button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100px;
+    background-color: #228B22;
+    color: #fff;
+}
+
+
+/*media queries*/
+
+/* X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+    /*container-header*/
+    #container_header__text p img {
+        display: none;
+    }
+
+    /*section-cardapio*/
+    #container_cardapio {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .box-cardapio {
+        width: 270px;
+        padding: 20px;
+
+    }
+
+    .box-cardapio_text {
+        margin-bottom: 10px;
+    }
+
+    .box-cardapio_text button {
+        margin-top: 20px;
+    }
+
+
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+    /*section-cardapio*/
+    .box-cardapio {
+        margin-right: 30px;
+    }
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
+
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {}
